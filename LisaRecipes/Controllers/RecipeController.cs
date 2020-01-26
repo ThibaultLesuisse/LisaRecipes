@@ -13,6 +13,7 @@ namespace LisaRecipes.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class RecipeController : ControllerBase
     {
         private readonly IMediator mediator;
